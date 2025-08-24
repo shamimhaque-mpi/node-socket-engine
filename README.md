@@ -1,4 +1,4 @@
-# Node.js WS Engine
+# Secure Chat Application
 
 A lightweight WebSocket engine built with Node.js (no external libraries) for real-time communication.
 
