@@ -70,7 +70,11 @@ Clients **must** provide a `client_key` in the request headers when connecting.
 <html>
   <body>
     <script>
-      const socket = new WebSocket("ws://localhost:8080");
+      const socket = new WebSocket("ws://localhost:8080", {
+        headers: {
+          client_key: "shamim123"
+        }
+      });
 
       socket.onopen = () => {
         console.log("Connected!");
